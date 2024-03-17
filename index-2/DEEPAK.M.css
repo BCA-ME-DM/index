@@ -1,0 +1,124 @@
+body{
+    display: flex;
+    position: relative;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    top: 90px;
+    position: relative;
+    height: 200px;
+    width: 50px;
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 5px;
+    margin: 2px;
+    cursor: pointer;
+    z-index: 1;
+}
+.box1:hover{
+    position: relative;
+    height: 400px;
+    width: 300px;
+   
+    transition: 0.5s;
+    transform: rotate(2deg) scale(1);
+    border-radius: 10px;
+    z-index: 2;
+}
+.box2{
+    top: 90px;
+    position: relative;
+    height: 200px;
+    width: 50px;
+    overflow: hidden;
+    transition: 0.5s; 
+    border-radius: 5px;
+    margin: 2px;
+    cursor: pointer;
+    z-index: 1;
+}
+.box2:hover{
+    position: relative;
+    height: 400px;
+    width: 300px;
+   
+    transition: 0.5s;
+    transform: rotate(-2deg) scale(1);
+    border-radius: 10px;
+    z-index: 2;
+}
+.box3{
+    top: 90px;
+    position: relative;
+    height: 200px;
+    width: 50px;
+    overflow: hidden;
+    transition: 0.5s; 
+    border-radius: 5px;
+    margin: 2px;
+    cursor: pointer;
+    z-index: 1;
+}
+.box3:hover{
+    position: relative;
+    height: 400px;
+    width: 300px;
+  
+    transition: 0.5s;
+    transform: rotate(3deg) scale(1);
+    border-radius: 10px;
+    z-index: 2;
+}
+.box4{
+    top: 90px;
+    position: relative;
+    height: 200px;
+    width: 50px;
+    overflow: hidden;
+    transition: 0.5s; 
+    border-radius: 5px;
+    margin: 2px;
+    cursor: pointer;
+    z-index: 1;
+}
+.box4:hover{
+    position: relative;
+    height: 400px;
+    width: 300px;
+    
+    transition: 0.5s;
+    transform: rotate(-5deg) scale(1);
+    border-radius: 10px;
+    z-index: 2;
+}
+.box5{
+    top: 90px;
+    position: relative;
+    height: 200px;
+    width: 50px;
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 5px;
+    margin: 2px;
+    cursor: pointer;
+    z-index: 1;
+}
+.box5:hover{
+    position: relative;
+    height: 300px;
+    width: 300px;
+   
+    transition: 0.5s;
+    transform: rotate(3deg) scale(1);
+    border-radius: 10px;
+    z-index: 2;
+}
+img{
+    filter: blur(2px);
+}
+img:hover{
+    filter: blur(0px);
+    width: 100%;
+}
